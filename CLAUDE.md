@@ -31,10 +31,10 @@ Objects (импорт FBX/GLB, гизмо, свойства объектов, а
 ## Запуск и сборка
 
 ```
-run.bat                  # игра: dev-сервер + браузер, порт 8080 (или следующий свободный)
-editor.bat               # редактор: http://localhost:8090/_utils/editor/
-build.bat                # dist/arcengine-<GAME_VERSION>.zip
-check.bat                # типы (tsc по JSDoc) + тесты; агенту — node tools/check.mjs [--types|--tests]
+run.bat / run.command    # игра: dev-сервер + браузер, порт 8080 (или следующий свободный)
+editor.bat / editor.command # редактор: http://localhost:8090/_utils/editor/
+build.bat / build.command # dist/arcengine-<GAME_VERSION>.zip
+check.bat / check.command # типы (tsc по JSDoc) + тесты; агенту — node tools/check.mjs [--types|--tests]
 ```
 
 Git: что не едет в репозиторий — `.gitignore` (`.claude/`, бэкапы редактора, `build/`, `dist/`);
